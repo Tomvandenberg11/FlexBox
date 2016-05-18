@@ -1,0 +1,47 @@
+body {
+	background-color: lightgreen;
+}
+
+#albums {
+	font-family: sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: lightgreen;
+}
+
+#albums>div {
+	flex: 0 0 300px;
+	background-color: #ffffff;
+	margin-bottom: 2em;
+	border-radius: 10px;
+}
+
+#albums div:hover {
+	background-color: lightgray;
+}
+
+.albums h3,
+.albums h4,
+.albums p,
+.albums table {
+	padding: 0 1em;
+}
+
+.albums img {
+	width: 300px;
+	border-radius: 10px;
+}
+
+.albums {
+	display: flex;
+	flex-direction: column;
+}
+
+.albums button {
+	margin: auto auto 1em auto;
+}
+
+#albums>div:empty {
+	height: 0;
+}
